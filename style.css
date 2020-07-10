@@ -1,0 +1,69 @@
+.box-model{
+    width: 50%;
+    margin: 20px;
+    padding: 30px;
+    border: 2px solid black;
+    display: block;
+}
+
+.document-flow{
+    padding: 20px;
+    background: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4em;
+}
+.wrapper{
+    background: #eee;
+    max-width: 960px;
+    padding: 20px;
+    margin: 0 auto;
+}
+.wrapper:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.services:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.blue{
+    background:blue;
+    float: left;
+}
+.red{
+    background: red;
+    float: left;
+}
+.green{
+    background: green;
+    float: left;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+}
+
+.service h2,.service p{
+    color: #999999;
+    margin: 10px 0;
+    text-align: center;
+}
+.service{
+    float: left;
+    background: rgb(184, 48, 48);
+    width: 29%;
+    margin: 1%;
+    padding: 1%;
+    height: 140px;
+}
+
+.content{
+    padding: 10px;
+    background: #ccc;
+    clear: left;
+    margin-top: 50px;
+}
